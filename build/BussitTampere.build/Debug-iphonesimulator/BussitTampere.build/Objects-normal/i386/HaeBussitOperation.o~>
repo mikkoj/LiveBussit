@@ -1,0 +1,2 @@
+/Users/nova/Documents/Dev/BussitTampere/Classes/HaeBussitOperation.m: In function '-[HaeBussitOperation main]':
+/Users/nova/Documents/Dev/BussitTampere/Classes/HaeBussitOperation.m:26: warning: incompatible Objective-C types initializing 'struct NSDictionary *', expected 'struct NSArray *'

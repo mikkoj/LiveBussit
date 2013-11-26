@@ -1,0 +1,967 @@
+TBussitTampere
+v7
+r0
+t318201147.731355
+cCheck dependencies
+cProcessInfoPlistFile /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/Info.plist BussitTampere-Info.plist
+cCompileXIB /Users/nova/Documents/Dev/BussitTampere/MainWindow.xib
+cCompileXIB /Users/nova/Documents/Dev/BussitTampere/BussitTampereViewController.xib
+cCpResource build/Release-iphonesimulator/BussitTampere.app/LocateMeButton.png LocateMeButton.png
+cCpResource build/Release-iphonesimulator/BussitTampere.app/LocateMeButton@2x.png LocateMeButton@2x.png
+cCpResource build/Release-iphonesimulator/BussitTampere.app/LocateMeButtonTrackingPressed.png LocateMeButtonTrackingPressed.png
+cCpResource build/Release-iphonesimulator/BussitTampere.app/LocateMeButtonTrackingPressed@2x.png LocateMeButtonTrackingPressed@2x.png
+cCpResource build/Release-iphonesimulator/BussitTampere.app/Location.png Location.png
+cCpResource build/Release-iphonesimulator/BussitTampere.app/Location@2x.png Location@2x.png
+cCpResource build/Release-iphonesimulator/BussitTampere.app/LocationHeading.png LocationHeading.png
+cCpResource build/Release-iphonesimulator/BussitTampere.app/LocationHeading@2x.png LocationHeading@2x.png
+cProcessPCH /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch.gch BussitTampere_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/main.o /Users/nova/Documents/Dev/BussitTampere/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereAppDelegate.o /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereViewController.o /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussiAnnotationView.o /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussiItem.o /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/HaeKulkuNeuvotOperation.o /Users/nova/Documents/Dev/BussitTampere/Classes/HaeKulkuNeuvotOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/NSObject+SBJSON.o /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/NSString+SBJSON.o /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJSON.o /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonBase.o /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonParser.o /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonWriter.o /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/TreJoukkoLiikenneYhteys.o /Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/MTLocateMeBarButtonItem.o /Users/nova/Documents/Dev/BussitTampere/MTLocateMeBarButtonItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/MTLocateMeButton.o /Users/nova/Documents/Dev/BussitTampere/MTLocateMeButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SporaItem.o /Users/nova/Documents/Dev/BussitTampere/Classes/SporaItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SporaAnnotationView.o /Users/nova/Documents/Dev/BussitTampere/Classes/SporaAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/HklJoukkoLiikenneYhteys.o /Users/nova/Documents/Dev/BussitTampere/Classes/HklJoukkoLiikenneYhteys.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/BussitTampere normal i386
+cGenerateDSYMFile /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app.dSYM /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/BussitTampere
+cTouch /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC122A000000000001D6CE0
+t1287725728
+s1928416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC12294000000000000046B
+t1287725716
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC127DD00000000000001D0
+t1287727069
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Users/nova/Documents/Dev/BussitTampere/BussitTampereViewController.xib
+c000000004D4725B10000000000008B8D
+t1296508337
+s35725
+
+N/Users/nova/Documents/Dev/BussitTampere/BussitTampere_Prefix.pch
+c000000004D406A4500000000000000C3
+t1296067141
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.h
+c000000004D4090B70000000000000205
+t1296076983
+s517
+i<UIKit/UIKit.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m
+c000000004D4090AD00000000000002D9
+t1296076973
+s729
+i"BussitTampereAppDelegate.h"
+i"BussitTampereViewController.h"
+i"BussiItem.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h
+c000000004D4722D6000000000000067B
+t1296507606
+s1659
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+i"HaeKulkuNeuvotOperation.h"
+i"MTLocateMeBarButtonItem.h"
+i"KulkuNeuvoProtocol.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m
+c000000004D47237B000000000000204F
+t1296507771
+s8271
+i"BussitTampereViewController.h"
+i"BussiItem.h"
+i"BussiAnnotationView.h"
+i"SporaItem.h"
+i"SporaAnnotationView.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiAnnotationView.h
+c000000004D44177900000000000000BA
+t1296308089
+s186
+i<MapKit/MapKit.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiAnnotationView.m
+c000000004D47132F0000000000000F48
+t1296503599
+s3912
+i"BussiAnnotationView.h"
+i"BussiItem.h"
+i<math.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiItem.h
+c000000004D47023100000000000002E3
+t1296499249
+s739
+i<CoreData/CoreData.h>
+i<MapKit/MapKit.h>
+i"KulkuNeuvoProtocol.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiItem.m
+c000000004D46FEAB00000000000002EA
+t1296498347
+s746
+i"BussiItem.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/HaeBussitOperation.h
+c000000004D409B4100000000000000DD
+t1296079681
+s221
+i<UIKit/UIKit.h>
+i"TreJoukkoLiikenneYhteys.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/HaeBussitOperation.m
+c000000004D41DB890000000000000268
+t1296161673
+s616
+i"HaeBussitOperation.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/HaeKulkuNeuvotOperation.h
+c000000004D4710ED0000000000000106
+t1296503021
+s262
+i<UIKit/UIKit.h>
+i"TreJoukkoLiikenneYhteys.h"
+i"HklJoukkoLiikenneYhteys.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/HaeKulkuNeuvotOperation.m
+c000000004D47095800000000000003BD
+t1296501080
+s957
+i"HaeKulkuNeuvotOperation.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/HklJoukkoLiikenneYhteys.h
+c000000004D470A4B00000000000000C5
+t1296501323
+s197
+i<Foundation/Foundation.h>
+i"BussiItem.h"
+i"SporaItem.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/HklJoukkoLiikenneYhteys.m
+c000000004D4716430000000000000932
+t1296504387
+s2354
+i"HklJoukkoLiikenneYhteys.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/JSON.h
+c000000004B74DB5500000000000008F9
+t1265949525
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSObject+SBJSON.h
+c000000004B74DB550000000000000A01
+t1265949525
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSObject+SBJSON.m
+c000000004B74DB55000000000000089E
+t1265949525
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSString+SBJSON.h
+c000000004B74DB550000000000000916
+t1265949525
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSString+SBJSON.m
+c000000004B74DB55000000000000087D
+t1265949525
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJSON.h
+c000000004B74DB550000000000000AED
+t1265949525
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJSON.m
+c000000004B74DB550000000000001ABC
+t1265949525
+s6844
+i"SBJSON.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonBase.h
+c000000004B74DB550000000000000B82
+t1265949525
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonBase.m
+c000000004B74DB550000000000000AC1
+t1265949525
+s2753
+i"SBJsonBase.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonParser.h
+c000000004B74DB550000000000000C0B
+t1265949525
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonParser.m
+c000000004B74DB5500000000000036CF
+t1265949525
+s14031
+i"SBJsonParser.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonWriter.h
+c000000004B74DB550000000000001140
+t1265949525
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonWriter.m
+c000000004B74DB550000000000001E83
+t1265949525
+s7811
+i"SBJsonWriter.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/KulkuNeuvoProtocol.h
+c000000004D4705F60000000000000313
+t1296500214
+s787
+i<Foundation/Foundation.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/SporaAnnotationView.h
+c000000004D46FEDC00000000000000BA
+t1296498396
+s186
+i<MapKit/MapKit.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/SporaAnnotationView.m
+c000000004D471C870000000000000E07
+t1296505991
+s3591
+i"SporaAnnotationView.h"
+i"SporaItem.h"
+i<math.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/SporaItem.h
+c000000004D47022E00000000000002E3
+t1296499246
+s739
+i<CoreData/CoreData.h>
+i<MapKit/MapKit.h>
+i"KulkuNeuvoProtocol.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/SporaItem.m
+c000000004D46FED400000000000002EA
+t1296498388
+s746
+i"SporaItem.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.h
+c000000004D41D55000000000000000A5
+t1296160080
+s165
+i<Foundation/Foundation.h>
+i"BussiItem.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m
+c000000004D47078000000000000004D8
+t1296500608
+s1240
+i"TreJoukkoLiikenneYhteys.h"
+i"JSON.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/LocateMeButton.png
+c000000004D42B7120000000000000DDC
+t1296217874
+s3548
+
+N/Users/nova/Documents/Dev/BussitTampere/LocateMeButton@2x.png
+c000000004D42B7120000000000001367
+t1296217874
+s4967
+
+N/Users/nova/Documents/Dev/BussitTampere/LocateMeButtonTrackingPressed.png
+c000000004D42B7120000000000000DFD
+t1296217874
+s3581
+
+N/Users/nova/Documents/Dev/BussitTampere/LocateMeButtonTrackingPressed@2x.png
+c000000004D42B71200000000000011CD
+t1296217874
+s4557
+
+N/Users/nova/Documents/Dev/BussitTampere/Location.png
+c000000004D42B7120000000000000BDA
+t1296217874
+s3034
+
+N/Users/nova/Documents/Dev/BussitTampere/Location@2x.png
+c000000004D42B7120000000000000D3B
+t1296217874
+s3387
+
+N/Users/nova/Documents/Dev/BussitTampere/LocationHeading.png
+c000000004D42B7120000000000000276
+t1296217874
+s630
+
+N/Users/nova/Documents/Dev/BussitTampere/LocationHeading@2x.png
+c000000004D42B7120000000000000608
+t1296217874
+s1544
+
+N/Users/nova/Documents/Dev/BussitTampere/MTLocateMeBarButtonItem.h
+c000000004D42B712000000000000084E
+t1296217874
+s2126
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+i"MTLocationDefines.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/MTLocateMeBarButtonItem.m
+c000000004D42B7120000000000001C0A
+t1296217874
+s7178
+i"MTLocateMeBarButtonItem.h"
+i"MTLocateMeButton.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/MTLocateMeButton.h
+c000000004D42B71200000000000007A9
+t1296217874
+s1961
+i<Foundation/Foundation.h>
+i"MTLocationDefines.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/MTLocateMeButton.m
+c000000004D42B712000000000000224B
+t1296217874
+s8779
+i"MTLocateMeButton.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/MTLocationDefines.h
+c000000004D42B7120000000000000A1A
+t1296217874
+s2586
+
+N/Users/nova/Documents/Dev/BussitTampere/MainWindow.xib
+c000000004D40894500000000000057B8
+t1296075077
+s22456
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussiAnnotationView.o
+t1296506352
+s45856
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussiItem.o
+t1296506352
+s19144
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampere.LinkFileList
+c000000004D471DEE0000000000000A7B
+t1296506350
+s2683
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereAppDelegate.o
+t1296508308
+s51000
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereViewController.o
+t1296508309
+s73552
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/HaeBussitOperation.o
+t2
+s0
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/HaeKulkuNeuvotOperation.o
+t1296506352
+s10188
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/HklJoukkoLiikenneYhteys.o
+t1296506353
+s14388
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/MTLocateMeBarButtonItem.o
+t1296506353
+s56936
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/MTLocateMeButton.o
+t1296506353
+s55868
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/NSObject+SBJSON.o
+t1296506352
+s8320
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/NSString+SBJSON.o
+t1296506352
+s8240
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJSON.o
+t1296506353
+s18980
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonBase.o
+t1296506353
+s12776
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonParser.o
+t1296506353
+s31796
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonWriter.o
+t1296506353
+s22460
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SporaAnnotationView.o
+t1296506353
+s45784
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SporaItem.o
+t1296506353
+s19128
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/TreJoukkoLiikenneYhteys.o
+t1296506353
+s13000
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/main.o
+t1296506352
+s6292
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app
+t1296508345
+s510
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app.dSYM
+t1296508309
+s102
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/BussitTampere
+t1296508309
+s106184
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/BussitTampereViewController.nib
+t1296508345
+s3152
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/Info.plist
+t1296506351
+s612
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/LocateMeButton.png
+t1296506351
+s3548
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/LocateMeButton@2x.png
+t1296506351
+s4967
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/LocateMeButtonTrackingPressed.png
+t1296506351
+s3581
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/LocateMeButtonTrackingPressed@2x.png
+t1296506351
+s4557
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/Location.png
+t1296506351
+s3034
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/Location@2x.png
+t1296506351
+s3387
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/LocationHeading.png
+t1296506351
+s630
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/LocationHeading@2x.png
+t1296506351
+s1544
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/MainWindow.nib
+t1296506351
+s1138
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/PkgInfo
+t1296506351
+s8
+
+N/Users/nova/Documents/Dev/BussitTampere/main.m
+c000000004D406A45000000000000016B
+t1296067141
+s363
+i<UIKit/UIKit.h>
+
+N/var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch.gch
+t1296506352
+s15113424
+
+NBussitTampere-Info.plist
+c000000004D471D9D0000000000000388
+t1296506269
+s904
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318201147#318201147#0(0"0(0#1#0"8613290272#0"0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussiAnnotationView.o /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199152.470961
+e318199152.644298
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussiAnnotationView.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiAnnotationView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiAnnotationView.m318199152#318199152#0(0"0(0#0#77"/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiAnnotationView.m8617646016#2150"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiAnnotationView.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussiAnnotationView.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussiItem.o /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199152.644491
+e318199152.772369
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussiItem.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiItem.m318199152#318199152#0(0"0(0#0#67"/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiItem.m8613650784#2130"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiItem.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussiItem.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereAppDelegate.o /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318201108.801530
+e318201108.951784
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereAppDelegate.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m318201108#318201108#0(0"0(0#0#74"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m8604397920#2152"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereAppDelegate.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereViewController.o /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318201108.802550
+e318201109.173775
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereViewController.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m318201108#318201109#0(0"0(0#0#77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m8600247744#2158"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereViewController.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/HaeBussitOperation.o /Users/nova/Documents/Dev/BussitTampere/Classes/HaeBussitOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/HaeKulkuNeuvotOperation.o /Users/nova/Documents/Dev/BussitTampere/Classes/HaeKulkuNeuvotOperation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199152.763852
+e318199152.907536
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/HaeKulkuNeuvotOperation.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/HaeKulkuNeuvotOperation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/HaeKulkuNeuvotOperation.m318199152#318199152#0(0"0(0#0#73"/Users/nova/Documents/Dev/BussitTampere/Classes/HaeKulkuNeuvotOperation.m8604259200#2150"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/HaeKulkuNeuvotOperation.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/HaeKulkuNeuvotOperation.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/HklJoukkoLiikenneYhteys.o /Users/nova/Documents/Dev/BussitTampere/Classes/HklJoukkoLiikenneYhteys.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199153.725422
+e318199153.869353
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/HklJoukkoLiikenneYhteys.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/HklJoukkoLiikenneYhteys.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/HklJoukkoLiikenneYhteys.m318199153#318199153#0(0"0(0#0#73"/Users/nova/Documents/Dev/BussitTampere/Classes/HklJoukkoLiikenneYhteys.m8619803904#2150"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/HklJoukkoLiikenneYhteys.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/HklJoukkoLiikenneYhteys.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/MTLocateMeBarButtonItem.o /Users/nova/Documents/Dev/BussitTampere/MTLocateMeBarButtonItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199153.359199
+e318199153.571174
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/MTLocateMeBarButtonItem.o
+x/Users/nova/Documents/Dev/BussitTampere/MTLocateMeBarButtonItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/nova/Documents/Dev/BussitTampere/MTLocateMeBarButtonItem.m318199153#318199153#0(0"0(0#0#65"/Users/nova/Documents/Dev/BussitTampere/MTLocateMeBarButtonItem.m8616837568#2142"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/MTLocateMeBarButtonItem.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/MTLocateMeBarButtonItem.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/MTLocateMeButton.o /Users/nova/Documents/Dev/BussitTampere/MTLocateMeButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199153.487705
+e318199153.725314
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/MTLocateMeButton.o
+x/Users/nova/Documents/Dev/BussitTampere/MTLocateMeButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/nova/Documents/Dev/BussitTampere/MTLocateMeButton.m318199153#318199153#0(0"0(0#0#58"/Users/nova/Documents/Dev/BussitTampere/MTLocateMeButton.m8621689952#2128"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/MTLocateMeButton.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/MTLocateMeButton.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/NSObject+SBJSON.o /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199152.772471
+e318199152.859250
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSObject+SBJSON.m318199152#318199152#0(0"0(0#0#70"/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSObject+SBJSON.m8613510176#2139"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSObject+SBJSON.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/NSString+SBJSON.o /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199152.859365
+e318199152.934809
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSString+SBJSON.m318199152#318199152#0(0"0(0#0#70"/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSString+SBJSON.m8617742560#2139"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/NSString+SBJSON.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJSON.o /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199152.907644
+e318199153.076830
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJSON.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJSON.m318199152#318199153#0(0"0(0#0#61"/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJSON.m8613850432#2121"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJSON.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonBase.o /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199152.934920
+e318199153.032981
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonBase.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonBase.m318199152#318199153#0(0"0(0#0#65"/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonBase.m8606056064#2129"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonBase.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonParser.o /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199153.033084
+e318199153.359093
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonParser.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonParser.m318199153#318199153#0(0"0(0#0#67"/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonParser.m8603364448#2133"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonParser.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonWriter.o /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199153.076941
+e318199153.284477
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonWriter.m318199153#318199153#0(0"0(0#0#67"/Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonWriter.m8617248448#2133"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/JSON/SBJsonWriter.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SporaAnnotationView.o /Users/nova/Documents/Dev/BussitTampere/Classes/SporaAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199153.698739
+e318199153.879266
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SporaAnnotationView.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/SporaAnnotationView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/SporaAnnotationView.m318199153#318199153#0(0"0(0#0#69"/Users/nova/Documents/Dev/BussitTampere/Classes/SporaAnnotationView.m8620019744#2142"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/SporaAnnotationView.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SporaAnnotationView.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SporaItem.o /Users/nova/Documents/Dev/BussitTampere/Classes/SporaItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199153.571282
+e318199153.698621
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SporaItem.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/SporaItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/SporaItem.m318199153#318199153#0(0"0(0#0#59"/Users/nova/Documents/Dev/BussitTampere/Classes/SporaItem.m8621553440#2122"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/SporaItem.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/SporaItem.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/TreJoukkoLiikenneYhteys.o /Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199153.284582
+e318199153.487598
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/TreJoukkoLiikenneYhteys.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m318199153#318199153#0(0"0(0#0#73"/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m8617695520#2150"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/TreJoukkoLiikenneYhteys.o0#
+
+CCompileC build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/main.o /Users/nova/Documents/Dev/BussitTampere/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199152.324330
+e318199152.407005
+r1
+xCompileC
+xbuild/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/main.o
+x/Users/nova/Documents/Dev/BussitTampere/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/nova/Documents/Dev/BussitTampere/main.m318199152#318199152#0(0"0(0#0#46"/Users/nova/Documents/Dev/BussitTampere/main.m8617665952#2104"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/main.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/nova/Documents/Dev/BussitTampere/BussitTampereViewController.xib
+s318201144.975162
+e318201145.464169
+r1
+xCompileXIB
+x/Users/nova/Documents/Dev/BussitTampere/BussitTampereViewController.xib
+lSLF07#2@42"CompileXIB BussitTampereViewController.xib318201144#318201145#0(0"0(0#0#71"/Users/nova/Documents/Dev/BussitTampere/BussitTampereViewController.xib8603288480#615"    cd /Users/nova/Documents/Dev/BussitTampere    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/BussitTampereViewController.nib /Users/nova/Documents/Dev/BussitTampere/BussitTampereViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/nova/Documents/Dev/BussitTampere/MainWindow.xib
+s318199151.021373
+e318199151.444539
+r1
+xCompileXIB
+x/Users/nova/Documents/Dev/BussitTampere/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib318199151#318199151#0(0"0(0#0#54"/Users/nova/Documents/Dev/BussitTampere/MainWindow.xib8617957696#581"    cd /Users/nova/Documents/Dev/BussitTampere    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/MainWindow.nib /Users/nova/Documents/Dev/BussitTampere/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Release-iphonesimulator/BussitTampere.app/LocateMeButton.png LocateMeButton.png
+s318199151.444709
+e318199151.465300
+r1
+xCpResource
+xbuild/Release-iphonesimulator/BussitTampere.app/LocateMeButton.png
+xLocateMeButton.png
+lSLF07#2@23"Copy LocateMeButton.png318199151#318199151#0(0"0(0#0#58"/Users/nova/Documents/Dev/BussitTampere/LocateMeButton.png8613498592#508"    cd /Users/nova/Documents/Dev/BussitTampere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nova/Documents/Dev/BussitTampere/LocateMeButton.png /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app0#
+
+CCpResource build/Release-iphonesimulator/BussitTampere.app/LocateMeButton@2x.png LocateMeButton@2x.png
+s318199151.446688
+e318199151.465448
+r1
+xCpResource
+xbuild/Release-iphonesimulator/BussitTampere.app/LocateMeButton@2x.png
+xLocateMeButton@2x.png
+lSLF07#2@26"Copy LocateMeButton@2x.png318199151#318199151#0(0"0(0#0#61"/Users/nova/Documents/Dev/BussitTampere/LocateMeButton@2x.png8603351232#511"    cd /Users/nova/Documents/Dev/BussitTampere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nova/Documents/Dev/BussitTampere/LocateMeButton@2x.png /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app0#
+
+CCpResource build/Release-iphonesimulator/BussitTampere.app/LocateMeButtonTrackingPressed.png LocateMeButtonTrackingPressed.png
+s318199151.447532
+e318199151.481174
+r1
+xCpResource
+xbuild/Release-iphonesimulator/BussitTampere.app/LocateMeButtonTrackingPressed.png
+xLocateMeButtonTrackingPressed.png
+lSLF07#2@38"Copy LocateMeButtonTrackingPressed.png318199151#318199151#0(0"0(0#0#73"/Users/nova/Documents/Dev/BussitTampere/LocateMeButtonTrackingPressed.png8617826240#523"    cd /Users/nova/Documents/Dev/BussitTampere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nova/Documents/Dev/BussitTampere/LocateMeButtonTrackingPressed.png /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app0#
+
+CCpResource build/Release-iphonesimulator/BussitTampere.app/LocateMeButtonTrackingPressed@2x.png LocateMeButtonTrackingPressed@2x.png
+s318199151.452270
+e318199151.481611
+r1
+xCpResource
+xbuild/Release-iphonesimulator/BussitTampere.app/LocateMeButtonTrackingPressed@2x.png
+xLocateMeButtonTrackingPressed@2x.png
+lSLF07#2@41"Copy LocateMeButtonTrackingPressed@2x.png318199151#318199151#0(0"0(0#0#76"/Users/nova/Documents/Dev/BussitTampere/LocateMeButtonTrackingPressed@2x.png8617540032#526"    cd /Users/nova/Documents/Dev/BussitTampere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nova/Documents/Dev/BussitTampere/LocateMeButtonTrackingPressed@2x.png /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app0#
+
+CCpResource build/Release-iphonesimulator/BussitTampere.app/Location.png Location.png
+s318199151.453191
+e318199151.482551
+r1
+xCpResource
+xbuild/Release-iphonesimulator/BussitTampere.app/Location.png
+xLocation.png
+lSLF07#2@17"Copy Location.png318199151#318199151#0(0"0(0#0#52"/Users/nova/Documents/Dev/BussitTampere/Location.png8616908704#502"    cd /Users/nova/Documents/Dev/BussitTampere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nova/Documents/Dev/BussitTampere/Location.png /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app0#
+
+CCpResource build/Release-iphonesimulator/BussitTampere.app/Location@2x.png Location@2x.png
+s318199151.456243
+e318199151.483024
+r1
+xCpResource
+xbuild/Release-iphonesimulator/BussitTampere.app/Location@2x.png
+xLocation@2x.png
+lSLF07#2@20"Copy Location@2x.png318199151#318199151#0(0"0(0#0#55"/Users/nova/Documents/Dev/BussitTampere/Location@2x.png8613805696#505"    cd /Users/nova/Documents/Dev/BussitTampere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nova/Documents/Dev/BussitTampere/Location@2x.png /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app0#
+
+CCpResource build/Release-iphonesimulator/BussitTampere.app/LocationHeading.png LocationHeading.png
+s318199151.459765
+e318199151.482727
+r1
+xCpResource
+xbuild/Release-iphonesimulator/BussitTampere.app/LocationHeading.png
+xLocationHeading.png
+lSLF07#2@24"Copy LocationHeading.png318199151#318199151#0(0"0(0#0#59"/Users/nova/Documents/Dev/BussitTampere/LocationHeading.png8613871008#509"    cd /Users/nova/Documents/Dev/BussitTampere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nova/Documents/Dev/BussitTampere/LocationHeading.png /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app0#
+
+CCpResource build/Release-iphonesimulator/BussitTampere.app/LocationHeading@2x.png LocationHeading@2x.png
+s318199151.461684
+e318199151.482852
+r1
+xCpResource
+xbuild/Release-iphonesimulator/BussitTampere.app/LocationHeading@2x.png
+xLocationHeading@2x.png
+lSLF07#2@27"Copy LocationHeading@2x.png318199151#318199151#0(0"0(0#0#62"/Users/nova/Documents/Dev/BussitTampere/LocationHeading@2x.png8621728544#512"    cd /Users/nova/Documents/Dev/BussitTampere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/nova/Documents/Dev/BussitTampere/LocationHeading@2x.png /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app0#
+
+CGenerateDSYMFile /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app.dSYM /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/BussitTampere
+s318201109.546208
+e318201109.580834
+r1
+xGenerateDSYMFile
+x/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app.dSYM
+x/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/BussitTampere
+lSLF07#2@131"GenerateDSYMFile build/Release-iphonesimulator/BussitTampere.app.dSYM build/Release-iphonesimulator/BussitTampere.app/BussitTampere318201109#318201109#0(0"0(0#0#101"/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/BussitTampere8613749056#408"    cd /Users/nova/Documents/Dev/BussitTampere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/BussitTampere -o /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app.dSYM0#
+
+CLd /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/BussitTampere normal i386
+s318201109.173886
+e318201109.546106
+r1
+xLd
+x/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/BussitTampere
+xnormal
+xi386
+lSLF07#2@106"Link /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/BussitTampere318201109#318201109#0(0"0(0#0#0"8616947232#1005"    cd /Users/nova/Documents/Dev/BussitTampere    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -filelist /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampere.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework CoreData -framework CoreLocation -o /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/BussitTampere0#
+
+CProcessInfoPlistFile /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/Info.plist BussitTampere-Info.plist
+s318199151.000986
+e318199151.021278
+r1
+xProcessInfoPlistFile
+x/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/Info.plist
+xBussitTampere-Info.plist
+lSLF07#2@32"Process BussitTampere-Info.plist318199151#318199151#0(0"0(0#0#64"/Users/nova/Documents/Dev/BussitTampere/BussitTampere-Info.plist29555065834766452#504"    cd /Users/nova/Documents/Dev/BussitTampere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BussitTampere-Info.plist -genpkginfo /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app/Info.plist0#
+
+CProcessPCH /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch.gch BussitTampere_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318199151.530733
+e318199152.324175
+r1
+xProcessPCH
+x/var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch.gch
+xBussitTampere_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile BussitTampere_Prefix.pch318199151#318199152#0(0"0(0#0#64"/Users/nova/Documents/Dev/BussitTampere/BussitTampere_Prefix.pch8617918016#1987"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Release-iphonesimulator/BussitTampere.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/nova/Documents/Dev/BussitTampere/BussitTampere_Prefix.pch -o /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-eufejkhcxfkjeqbeplqzeqkqapgs/BussitTampere_Prefix.pch.gch0#
+
+CTouch /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app
+s318201145.465919
+e318201145.468666
+r1
+xTouch
+x/Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app
+lSLF07#2@93"Touch /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app318201145#318201145#0(0"0(0#0#0"8619441440#288"    cd /Users/nova/Documents/Dev/BussitTampere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nova/Documents/Dev/BussitTampere/build/Release-iphonesimulator/BussitTampere.app0#
+

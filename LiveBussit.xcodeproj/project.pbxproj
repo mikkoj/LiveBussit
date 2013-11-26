@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* BussitTampereAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* BussitTampereAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* BussitTampereViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* BussitTampereViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* BussitTampereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* BussitTampereViewController.m */; };
+		98A6311D12F0CF9C0065976E /* HaeKulkuNeuvotOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A6310C12F0CF9C0065976E /* HaeKulkuNeuvotOperation.m */; };
+		98A6311E12F0CF9C0065976E /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A6311012F0CF9C0065976E /* NSObject+SBJSON.m */; };
+		98A6311F12F0CF9C0065976E /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A6311212F0CF9C0065976E /* NSString+SBJSON.m */; };
+		98A6312012F0CF9C0065976E /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A6311412F0CF9C0065976E /* SBJSON.m */; };
+		98A6312112F0CF9C0065976E /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A6311612F0CF9C0065976E /* SBJsonBase.m */; };
+		98A6312212F0CF9C0065976E /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A6311812F0CF9C0065976E /* SBJsonParser.m */; };
+		98A6312312F0CF9C0065976E /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A6311A12F0CF9C0065976E /* SBJsonWriter.m */; };
+		98A6312412F0CF9C0065976E /* TreJoukkoLiikenneYhteys.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A6311C12F0CF9C0065976E /* TreJoukkoLiikenneYhteys.m */; };
+		98C08F5812F0A24800E89B88 /* BussiAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C08F5112F0A24800E89B88 /* BussiAnnotationView.m */; };
+		98C08F5912F0A24800E89B88 /* BussiItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C08F5312F0A24800E89B88 /* BussiItem.m */; };
+		98C0905012F0B94000E89B88 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C0904F12F0B94000E89B88 /* MapKit.framework */; };
+		98C0906012F0B96900E89B88 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C0905F12F0B96900E89B88 /* CoreData.framework */; };
+		98C0F44A12F37DCF00C24308 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C0F44912F37DCF00C24308 /* CoreLocation.framework */; };
+		98C0F47B12F3891500C24308 /* LocateMeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C0F46A12F3891400C24308 /* LocateMeButton.png */; };
+		98C0F47C12F3891500C24308 /* LocateMeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C0F46B12F3891400C24308 /* LocateMeButton@2x.png */; };
+		98C0F47D12F3891500C24308 /* LocateMeButtonTrackingPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C0F46C12F3891400C24308 /* LocateMeButtonTrackingPressed.png */; };
+		98C0F47E12F3891500C24308 /* LocateMeButtonTrackingPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C0F46D12F3891500C24308 /* LocateMeButtonTrackingPressed@2x.png */; };
+		98C0F47F12F3891500C24308 /* Location.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C0F46E12F3891500C24308 /* Location.png */; };
+		98C0F48012F3891500C24308 /* Location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C0F46F12F3891500C24308 /* Location@2x.png */; };
+		98C0F48112F3891500C24308 /* LocationHeading.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C0F47012F3891500C24308 /* LocationHeading.png */; };
+		98C0F48212F3891500C24308 /* LocationHeading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98C0F47112F3891500C24308 /* LocationHeading@2x.png */; };
+		98C0F48312F3891500C24308 /* MTLocateMeBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0F47412F3891500C24308 /* MTLocateMeBarButtonItem.m */; };
+		98C0F48412F3891500C24308 /* MTLocateMeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0F47912F3891500C24308 /* MTLocateMeButton.m */; };
+		98C0F6C212F734DD00C24308 /* SporaItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0F6C112F734DD00C24308 /* SporaItem.m */; };
+		98C0F6C512F734EC00C24308 /* SporaAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0F6C412F734EC00C24308 /* SporaAnnotationView.m */; };
+		98C0F6E212F7419700C24308 /* HklJoukkoLiikenneYhteys.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0F6E112F7419700C24308 /* HklJoukkoLiikenneYhteys.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* BussitTampereAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussitTampereAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* BussitTampereAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussitTampereAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* LiveBussit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveBussit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* BussitTampereViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BussitTampereViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* BussitTampereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BussitTampereViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* BussitTampereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BussitTampereViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* LiveBussit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveBussit_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* LiveBussit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LiveBussit-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		98A6310B12F0CF9C0065976E /* HaeKulkuNeuvotOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaeKulkuNeuvotOperation.h; sourceTree = "<group>"; };
+		98A6310C12F0CF9C0065976E /* HaeKulkuNeuvotOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaeKulkuNeuvotOperation.m; sourceTree = "<group>"; };
+		98A6310E12F0CF9C0065976E /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		98A6310F12F0CF9C0065976E /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		98A6311012F0CF9C0065976E /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		98A6311112F0CF9C0065976E /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		98A6311212F0CF9C0065976E /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		98A6311312F0CF9C0065976E /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		98A6311412F0CF9C0065976E /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		98A6311512F0CF9C0065976E /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		98A6311612F0CF9C0065976E /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		98A6311712F0CF9C0065976E /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		98A6311812F0CF9C0065976E /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		98A6311912F0CF9C0065976E /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		98A6311A12F0CF9C0065976E /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		98A6311B12F0CF9C0065976E /* TreJoukkoLiikenneYhteys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreJoukkoLiikenneYhteys.h; sourceTree = "<group>"; };
+		98A6311C12F0CF9C0065976E /* TreJoukkoLiikenneYhteys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreJoukkoLiikenneYhteys.m; sourceTree = "<group>"; };
+		98C08F5012F0A24800E89B88 /* BussiAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BussiAnnotationView.h; path = Classes/BussiAnnotationView.h; sourceTree = "<group>"; };
+		98C08F5112F0A24800E89B88 /* BussiAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BussiAnnotationView.m; path = Classes/BussiAnnotationView.m; sourceTree = "<group>"; };
+		98C08F5212F0A24800E89B88 /* BussiItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BussiItem.h; path = Classes/BussiItem.h; sourceTree = "<group>"; };
+		98C08F5312F0A24800E89B88 /* BussiItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BussiItem.m; path = Classes/BussiItem.m; sourceTree = "<group>"; };
+		98C0904F12F0B94000E89B88 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		98C0905F12F0B96900E89B88 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		98C0F44912F37DCF00C24308 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		98C0F46A12F3891400C24308 /* LocateMeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocateMeButton.png; sourceTree = "<group>"; };
+		98C0F46B12F3891400C24308 /* LocateMeButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LocateMeButton@2x.png"; sourceTree = "<group>"; };
+		98C0F46C12F3891400C24308 /* LocateMeButtonTrackingPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocateMeButtonTrackingPressed.png; sourceTree = "<group>"; };
+		98C0F46D12F3891500C24308 /* LocateMeButtonTrackingPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LocateMeButtonTrackingPressed@2x.png"; sourceTree = "<group>"; };
+		98C0F46E12F3891500C24308 /* Location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location.png; sourceTree = "<group>"; };
+		98C0F46F12F3891500C24308 /* Location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Location@2x.png"; sourceTree = "<group>"; };
+		98C0F47012F3891500C24308 /* LocationHeading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocationHeading.png; sourceTree = "<group>"; };
+		98C0F47112F3891500C24308 /* LocationHeading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LocationHeading@2x.png"; sourceTree = "<group>"; };
+		98C0F47212F3891500C24308 /* MTLocateMeBarButtonItem_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocateMeBarButtonItem_Prefix.pch; sourceTree = "<group>"; };
+		98C0F47312F3891500C24308 /* MTLocateMeBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocateMeBarButtonItem.h; sourceTree = "<group>"; };
+		98C0F47412F3891500C24308 /* MTLocateMeBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLocateMeBarButtonItem.m; sourceTree = "<group>"; };
+		98C0F47812F3891500C24308 /* MTLocateMeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocateMeButton.h; sourceTree = "<group>"; };
+		98C0F47912F3891500C24308 /* MTLocateMeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLocateMeButton.m; sourceTree = "<group>"; };
+		98C0F47A12F3891500C24308 /* MTLocationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLocationDefines.h; sourceTree = "<group>"; };
+		98C0F6C012F734DD00C24308 /* SporaItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SporaItem.h; sourceTree = "<group>"; };
+		98C0F6C112F734DD00C24308 /* SporaItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SporaItem.m; sourceTree = "<group>"; };
+		98C0F6C312F734EC00C24308 /* SporaAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SporaAnnotationView.h; sourceTree = "<group>"; };
+		98C0F6C412F734EC00C24308 /* SporaAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SporaAnnotationView.m; sourceTree = "<group>"; };
+		98C0F6CE12F738D900C24308 /* KulkuNeuvoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KulkuNeuvoProtocol.h; sourceTree = "<group>"; };
+		98C0F6E012F7419700C24308 /* HklJoukkoLiikenneYhteys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HklJoukkoLiikenneYhteys.h; sourceTree = "<group>"; };
+		98C0F6E112F7419700C24308 /* HklJoukkoLiikenneYhteys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HklJoukkoLiikenneYhteys.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				98C0905012F0B94000E89B88 /* MapKit.framework in Frameworks */,
+				98C0906012F0B96900E89B88 /* CoreData.framework in Frameworks */,
+				98C0F44A12F37DCF00C24308 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9879522112F8B3D500EEB52C /* Annotaatiot */,
+				98A6310D12F0CF9C0065976E /* JSON */,
+				98A6310B12F0CF9C0065976E /* HaeKulkuNeuvotOperation.h */,
+				98A6310C12F0CF9C0065976E /* HaeKulkuNeuvotOperation.m */,
+				98C0F6E012F7419700C24308 /* HklJoukkoLiikenneYhteys.h */,
+				98C0F6E112F7419700C24308 /* HklJoukkoLiikenneYhteys.m */,
+				98A6311B12F0CF9C0065976E /* TreJoukkoLiikenneYhteys.h */,
+				98A6311C12F0CF9C0065976E /* TreJoukkoLiikenneYhteys.m */,
+				98C0F6CE12F738D900C24308 /* KulkuNeuvoProtocol.h */,
+				1D3623240D0F684500981E51 /* BussitTampereAppDelegate.h */,
+				1D3623250D0F684500981E51 /* BussitTampereAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* BussitTampereViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* BussitTampereViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* LiveBussit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				98C0F48B12F3891D00C24308 /* LocateMeButton */,
+				32CA4F630368D1EE00C91783 /* LiveBussit_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* BussitTampereViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* LiveBussit-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				98C0904F12F0B94000E89B88 /* MapKit.framework */,
+				98C0905F12F0B96900E89B88 /* CoreData.framework */,
+				98C0F44912F37DCF00C24308 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9879522112F8B3D500EEB52C /* Annotaatiot */ = {
+			isa = PBXGroup;
+			children = (
+				98C08F5012F0A24800E89B88 /* BussiAnnotationView.h */,
+				98C08F5112F0A24800E89B88 /* BussiAnnotationView.m */,
+				98C08F5212F0A24800E89B88 /* BussiItem.h */,
+				98C08F5312F0A24800E89B88 /* BussiItem.m */,
+				98C0F6C012F734DD00C24308 /* SporaItem.h */,
+				98C0F6C112F734DD00C24308 /* SporaItem.m */,
+				98C0F6C312F734EC00C24308 /* SporaAnnotationView.h */,
+				98C0F6C412F734EC00C24308 /* SporaAnnotationView.m */,
+			);
+			name = Annotaatiot;
+			sourceTree = "<group>";
+		};
+		98A6310D12F0CF9C0065976E /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				98A6310E12F0CF9C0065976E /* JSON.h */,
+				98A6310F12F0CF9C0065976E /* NSObject+SBJSON.h */,
+				98A6311012F0CF9C0065976E /* NSObject+SBJSON.m */,
+				98A6311112F0CF9C0065976E /* NSString+SBJSON.h */,
+				98A6311212F0CF9C0065976E /* NSString+SBJSON.m */,
+				98A6311312F0CF9C0065976E /* SBJSON.h */,
+				98A6311412F0CF9C0065976E /* SBJSON.m */,
+				98A6311512F0CF9C0065976E /* SBJsonBase.h */,
+				98A6311612F0CF9C0065976E /* SBJsonBase.m */,
+				98A6311712F0CF9C0065976E /* SBJsonParser.h */,
+				98A6311812F0CF9C0065976E /* SBJsonParser.m */,
+				98A6311912F0CF9C0065976E /* SBJsonWriter.h */,
+				98A6311A12F0CF9C0065976E /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		98C0F48B12F3891D00C24308 /* LocateMeButton */ = {
+			isa = PBXGroup;
+			children = (
+				98C0F46A12F3891400C24308 /* LocateMeButton.png */,
+				98C0F46B12F3891400C24308 /* LocateMeButton@2x.png */,
+				98C0F46C12F3891400C24308 /* LocateMeButtonTrackingPressed.png */,
+				98C0F46D12F3891500C24308 /* LocateMeButtonTrackingPressed@2x.png */,
+				98C0F46E12F3891500C24308 /* Location.png */,
+				98C0F46F12F3891500C24308 /* Location@2x.png */,
+				98C0F47012F3891500C24308 /* LocationHeading.png */,
+				98C0F47112F3891500C24308 /* LocationHeading@2x.png */,
+				98C0F47212F3891500C24308 /* MTLocateMeBarButtonItem_Prefix.pch */,
+				98C0F47312F3891500C24308 /* MTLocateMeBarButtonItem.h */,
+				98C0F47412F3891500C24308 /* MTLocateMeBarButtonItem.m */,
+				98C0F47812F3891500C24308 /* MTLocateMeButton.h */,
+				98C0F47912F3891500C24308 /* MTLocateMeButton.m */,
+				98C0F47A12F3891500C24308 /* MTLocationDefines.h */,
+			);
+			name = LocateMeButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* LiveBussit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LiveBussit" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveBussit;
+			productName = BussitTampere;
+			productReference = 1D6058910D05DD3D006BFB54 /* LiveBussit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LiveBussit" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* LiveBussit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* BussitTampereViewController.xib in Resources */,
+				98C0F47B12F3891500C24308 /* LocateMeButton.png in Resources */,
+				98C0F47C12F3891500C24308 /* LocateMeButton@2x.png in Resources */,
+				98C0F47D12F3891500C24308 /* LocateMeButtonTrackingPressed.png in Resources */,
+				98C0F47E12F3891500C24308 /* LocateMeButtonTrackingPressed@2x.png in Resources */,
+				98C0F47F12F3891500C24308 /* Location.png in Resources */,
+				98C0F48012F3891500C24308 /* Location@2x.png in Resources */,
+				98C0F48112F3891500C24308 /* LocationHeading.png in Resources */,
+				98C0F48212F3891500C24308 /* LocationHeading@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* BussitTampereAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* BussitTampereViewController.m in Sources */,
+				98C08F5812F0A24800E89B88 /* BussiAnnotationView.m in Sources */,
+				98C08F5912F0A24800E89B88 /* BussiItem.m in Sources */,
+				98A6311D12F0CF9C0065976E /* HaeKulkuNeuvotOperation.m in Sources */,
+				98A6311E12F0CF9C0065976E /* NSObject+SBJSON.m in Sources */,
+				98A6311F12F0CF9C0065976E /* NSString+SBJSON.m in Sources */,
+				98A6312012F0CF9C0065976E /* SBJSON.m in Sources */,
+				98A6312112F0CF9C0065976E /* SBJsonBase.m in Sources */,
+				98A6312212F0CF9C0065976E /* SBJsonParser.m in Sources */,
+				98A6312312F0CF9C0065976E /* SBJsonWriter.m in Sources */,
+				98A6312412F0CF9C0065976E /* TreJoukkoLiikenneYhteys.m in Sources */,
+				98C0F48312F3891500C24308 /* MTLocateMeBarButtonItem.m in Sources */,
+				98C0F48412F3891500C24308 /* MTLocateMeButton.m in Sources */,
+				98C0F6C212F734DD00C24308 /* SporaItem.m in Sources */,
+				98C0F6C512F734EC00C24308 /* SporaAnnotationView.m in Sources */,
+				98C0F6E212F7419700C24308 /* HklJoukkoLiikenneYhteys.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LiveBussit_Prefix.pch;
+				INFOPLIST_FILE = "LiveBussit-Info.plist";
+				PRODUCT_NAME = LiveBussit;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LiveBussit_Prefix.pch;
+				INFOPLIST_FILE = "LiveBussit-Info.plist";
+				PRODUCT_NAME = LiveBussit;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LiveBussit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LiveBussit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

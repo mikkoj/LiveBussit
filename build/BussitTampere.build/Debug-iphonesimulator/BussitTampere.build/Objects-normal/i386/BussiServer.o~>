@@ -1,0 +1,4 @@
+/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiServer.m:56: warning: property 'haetutBussit' requires method '-haetutBussit' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiServer.m:56: warning: property 'haetutBussit' requires the method 'setHaetutBussit:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiServer.m:56: warning: incomplete implementation of class 'BussiServer'
+/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/BussiServer.m:56: warning: method definition for '+sharedInstance' not found

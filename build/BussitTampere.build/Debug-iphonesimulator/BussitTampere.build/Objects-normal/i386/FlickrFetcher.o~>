@@ -1,0 +1,34 @@
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:3:17: error: JSON.h: No such file or directory
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m: In function '-[TreJoukkoLiikenneYhteys recentGeoTaggedPhotos]':
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:26: error: 'FlickrAPIKey' undeclared (first use in this function)
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:26: error: (Each undeclared identifier is reported only once
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:26: error: for each function it appears in.)
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:31: warning: 'NSString' may not respond to '-JSONValue'
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:31: warning: (Messages without a matching method signature
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:31: warning: will be assumed to return 'id' and accept
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:31: warning: '...' as arguments.)
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m: In function '-[TreJoukkoLiikenneYhteys recentGeoTaggedPhotos:]':
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:41: error: 'FlickrAPIKey' undeclared (first use in this function)
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:47: warning: 'NSString' may not respond to '-JSONValue'
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m: In function '-[TreJoukkoLiikenneYhteys usernameForUserID:]':
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:59: error: 'FlickrAPIKey' undeclared (first use in this function)
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:63: warning: 'NSString' may not respond to '-JSONValue'
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m: At top level:
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:66: error: expected ')' before 'FlickrFetcherPhotoFormat'
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m: In function '-[TreJoukkoLiikenneYhteys dataForPhotoID:fromFarm:onServer:withSecret:inFormat:]':
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:73: error: switch quantity not an integer
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:74: error: 'FlickrFetcherPhotoFormatSquare' undeclared (first use in this function)
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:78: error: 'FlickrFetcherPhotoFormatLarge' undeclared (first use in this function)
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m: In function '-[TreJoukkoLiikenneYhteys locationForPhotoID:]':
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:93: error: 'FlickrAPIKey' undeclared (first use in this function)
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:97: warning: 'NSString' may not respond to '-JSONValue'
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m: In function '-[TreJoukkoLiikenneYhteys dealloc]':
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:115: error: 'managedObjectContext' undeclared (first use in this function)
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:116: error: 'managedObjectModel' undeclared (first use in this function)
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:117: error: 'persistentStoreCoordinator' undeclared (first use in this function)
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m: At top level:
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:122: warning: incomplete implementation of class 'TreJoukkoLiikenneYhteys'
+/Users/nova/Documents/Dev/BussitTampere/../FlickrTest/Classes/FlickrFetcher/FlickrFetcher.m:122: warning: method definition for '-bussienSijainnit' not found
+{standard input}:65:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+{standard input}:65:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0

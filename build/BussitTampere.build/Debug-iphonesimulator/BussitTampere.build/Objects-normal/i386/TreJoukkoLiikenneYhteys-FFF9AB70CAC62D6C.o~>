@@ -1,0 +1,15 @@
+/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m:3:17: error: JSON.h: No such file or directory
+/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m: In function '-[TreJoukkoLiikenneYhteys bussienSijainnit]':
+/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m:33: warning: 'NSString' may not respond to '-JSONValue'
+/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m:33: warning: (Messages without a matching method signature
+/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m:33: warning: will be assumed to return 'id' and accept
+/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m:33: warning: '...' as arguments.)
+/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m:36: error: 'photosForUser' undeclared (first use in this function)
+/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m:36: error: (Each undeclared identifier is reported only once
+/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m:36: error: for each function it appears in.)
+/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m:39: warning: unused variable 'photoID'
+/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m:40: error: expression does not have a valid object type
+/Users/nova/Documents/Dev/BussitTampere/Classes/TreJoukkoLiikenneYhteys.m:33: warning: unused variable 'results'
+{standard input}:65:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+{standard input}:65:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0

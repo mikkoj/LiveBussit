@@ -1,0 +1,419 @@
+TBussitTampere
+v7
+r0
+t317765407.842194
+cCheck dependencies
+cProcessInfoPlistFile /Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app/Info.plist BussitTampere-Info.plist
+cCompileXIB /Users/nova/Documents/Dev/BussitTampere/MainWindow.xib
+cCompileXIB /Users/nova/Documents/Dev/BussitTampere/BussitTampereViewController.xib
+cProcessPCH /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-fdbsqyhdjbxqzycmcfovojwknygs/BussitTampere_Prefix.pch.gch BussitTampere_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/main.o /Users/nova/Documents/Dev/BussitTampere/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereAppDelegate.o /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereViewController.o /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherAnnotationView.o /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherItem.o /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherServer.o /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherServer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC12294000000000000046B
+t1287725716
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/nova/Documents/Dev/BussitTampere/BussitTampereViewController.xib
+c000000004D406A450000000000001A5D
+t1296067141
+s6749
+
+N/Users/nova/Documents/Dev/BussitTampere/BussitTampere_Prefix.pch
+c000000004D406A4500000000000000C3
+t1296067141
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.h
+c000000004D406D300000000000000282
+t1296067888
+s642
+i<UIKit/UIKit.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m
+c000000004D406D35000000000000032D
+t1296067893
+s813
+i"BussitTampereAppDelegate.h"
+i"BussitTampereViewController.h"
+i"WeatherServer.h"
+i"WeatherItem.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h
+c000000004D406DD4000000000000022E
+t1296068052
+s558
+i<UIKit/UIKit.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m
+c000000004D407F9700000000000006DB
+t1296072599
+s1755
+i"BussitTampereViewController.h"
+i"WeatherServer.h"
+i"WeatherItem.h"
+i"WeatherAnnotationView.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/AppDelegate.h
+c000000004C2D0A470000000000000BA6
+t1278020167
+s2982
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/AppDelegate.m
+c000000004C2D0A470000000000000BF3
+t1278020167
+s3059
+i"AppDelegate.h"
+i"MapViewController.h"
+i"WeatherServer.h"
+i"WeatherItem.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/MapViewController.h
+c000000004C2D0A470000000000000B98
+t1278020167
+s2968
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/MapViewController.m
+c000000004C2D0A47000000000000102F
+t1278020167
+s4143
+i"MapViewController.h"
+i"WeatherServer.h"
+i"WeatherItem.h"
+i"WeatherAnnotationView.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherAnnotationView.h
+c000000004D407F8D000000000000005A
+t1296072589
+s90
+i<MapKit/MapKit.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherAnnotationView.m
+c000000004D407F8A0000000000000B9F
+t1296072586
+s2975
+i"WeatherAnnotationView.h"
+i"WeatherItem.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherItem.h
+c000000004D407F900000000000000308
+t1296072592
+s776
+i<CoreData/CoreData.h>
+i<MapKit/MapKit.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherItem.m
+c000000004D407F91000000000000012A
+t1296072593
+s298
+i"WeatherItem.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherServer.h
+c000000004D407F9300000000000001FB
+t1296072595
+s507
+i<CoreData/CoreData.h>
+i<MapKit/MapKit.h>
+
+N/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherServer.m
+c000000004D407F950000000000001F5D
+t1296072597
+s8029
+i"WeatherServer.h"
+i"WeatherItem.h"
+
+N/Users/nova/Documents/Dev/BussitTampere/MainWindow.xib
+c000000004D406A450000000000004E71
+t1296067141
+s20081
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampere.LinkFileList
+c000000004D407F9B0000000000000376
+t1296072603
+s886
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereAppDelegate.o
+t2
+s0
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereViewController.o
+t2
+s0
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/MapViewController.o
+t2
+s0
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherAnnotationView.o
+t1296072607
+s48124
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherItem.o
+t1296072607
+s14032
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherServer.o
+t1296072607
+s30672
+
+N/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/main.o
+t1296072607
+s6304
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app
+t2
+s0
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app.dSYM
+t2
+s0
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app/BussitTampere
+t2
+s0
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app/BussitTampereViewController.nib
+t1296072605
+s795
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app/Info.plist
+t1296072603
+s615
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app/MainWindow.nib
+t1296072605
+s1135
+
+N/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app/PkgInfo
+t1296072603
+s8
+
+N/Users/nova/Documents/Dev/BussitTampere/main.m
+c000000004D406A45000000000000016B
+t1296067141
+s363
+i<UIKit/UIKit.h>
+
+N/var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-fdbsqyhdjbxqzycmcfovojwknygs/BussitTampere_Prefix.pch.gch
+t1296072607
+s15453392
+
+NBussitTampere-Info.plist
+c000000004D406A45000000000000038D
+t1296067141
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317765403#317765403#0(0"0(0#1#0"32651513917735028#0"0#
+
+CCompileC build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/AppDelegate.o /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereAppDelegate.o /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317765407.379617
+e317765407.591401
+r0
+xCompileC
+xbuild/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereAppDelegate.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:10:
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h:16: error: expected specifier-qualifier-list before 'MKMapView'
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h:20: error: expected specifier-qualifier-list before 'MKMapView'
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:17: error: no declaration of property 'viewController' found in the interface
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m: In function '-[BussitTampereAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:21: warning: conflicting types for '-(void)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions'
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:236: warning: previous declaration of '-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions'
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:25: error: request for member 'mapView' in something not a structure or union
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:25: warning: 'BussitTampereViewController' may not respond to '-mapView:regionDidChangeAnimated:'
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:25: warning: (Messages without a matching method signature
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:25: warning: will be assumed to return 'id' and accept
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:25: warning: '...' as arguments.)
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m: At top level:
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:35: warning: property 'mapViewController' requires method '-mapViewController' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:35: warning: property 'mapViewController' requires the method 'setMapViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@82"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m317765407#317765407#0(2476"In file included from /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:10:/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h:16: error: expected specifier-qualifier-list before 'MKMapView'/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h:20: error: expected specifier-qualifier-list before 'MKMapView'/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:17: error: no declaration of property 'viewController' found in the interface/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m: In function '-[BussitTampereAppDelegate application:didFinishLaunchingWithOptions:]':/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:21: warning: conflicting types for '-(void)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions'/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:236: warning: previous declaration of '-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions'/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:25: error: request for member 'mapView' in something not a structure or union/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:25: warning: 'BussitTampereViewController' may not respond to '-mapView:regionDidChangeAnimated:'/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:25: warning: (Messages without a matching method signature/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:25: warning: will be assumed to return 'id' and accept/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:25: warning: '...' as arguments.)/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m: At top level:/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:35: warning: property 'mapViewController' requires method '-mapViewController' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m:35: warning: property 'mapViewController' requires the method 'setMapViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation11(4@52"Expected specifier-qualifier-list before 'MKMapView'317765407#101#142#2(7@96"In file included from /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m317765407#18446744073709551615#0#0(6@74"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m317760693#10#0#10#0#0"0(13@133"Expected specifier-qualifier-list before 'MKMapView' in /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h317765407#18446744073709551615#0#0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h317760852#16#0#16#0#0"0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h317760852#16#0#16#0#19"expected * before *0(4@52"Expected specifier-qualifier-list before 'MKMapView'317765407#243#142#2(7@96"In file included from /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m317765407#18446744073709551615#0#0(6@74"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m317760693#10#0#10#0#0"0(13@133"Expected specifier-qualifier-list before 'MKMapView' in /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h317765407#18446744073709551615#0#0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h317760852#20#0#20#0#0"0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h317760852#20#0#20#0#19"expected * before *0(4@66"No declaration of property 'viewController' found in the interface317765407#385#153#0(6@74"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m317760693#17#0#17#0#0"0(22@131"Conflicting types for '-(void)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions'317765407#700#220#0(6@74"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m317760693#21#0#21#0#25"conflicting types for '*'0(22@133"Previous declaration of '-(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions'317765407#920#298#0(6@149"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h309419935#236#0#236#0#0"0(4@66"Request for member 'mapView' in something not a structure or union317765407#1218#153#0(6@74"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m317760693#25#0#25#0#0"0(22@84"'BussitTampereViewController' may not respond to '-mapView:regionDidChangeAnimated:'317765407#1371#173#0(6@74"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m317760693#25#0#25#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)317765407#1544#134#0(6@74"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m317760693#25#0#25#0#0"0(23@13"At top level:317765407#1917#90#0(6@74"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m317760693#0#0#0#0#0"0(22@142"Property 'mapViewController' requires method '-mapViewController' to be defined - use @synthesize, @dynamic or provide a method implementation317765407#2007#231#0(6@74"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m317760693#35#0#35#0#0"0(22@149"Property 'mapViewController' requires the method 'setMapViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation317765407#2238#238#0(6@74"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m317760693#35#0#35#0#0"0(0#0#74"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m8618822432#2093"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/DerivedSources -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-fdbsqyhdjbxqzycmcfovojwknygs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereAppDelegate.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereAppDelegate.o1#
+
+CCompileC build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereViewController.o /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317765407.591497
+e317765407.688485
+r0
+xCompileC
+xbuild/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereViewController.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:9:
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h:16: error: expected specifier-qualifier-list before 'MKMapView'
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h:20: error: expected specifier-qualifier-list before 'MKMapView'
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:16: error: no declaration of property 'mapView' found in the interface
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m: In function '-[BussitTampereViewController viewDidLoad]':
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:26: error: request for member 'mapView' in something not a structure or union
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m: In function '-[BussitTampereViewController viewDidUnload]':
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:32: error: request for member 'mapView' in something not a structure or union
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m: In function '-[BussitTampereViewController dealloc]':
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:38: error: 'mapView' undeclared (first use in this function)
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:38: error: (Each undeclared identifier is reported only once
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:38: error: for each function it appears in.)
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m: In function '-[BussitTampereViewController mapView:regionDidChangeAnimated:]':
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:47: error: 'mapView' undeclared (first use in this function)
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m: In function '-[BussitTampereViewController mapView:viewForAnnotation:]':
+o/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:59: error: 'mapView' undeclared (first use in this function)
+lSLF07#2@85"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m317765407#317765407#0(2246"In file included from /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:9:/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h:16: error: expected specifier-qualifier-list before 'MKMapView'/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h:20: error: expected specifier-qualifier-list before 'MKMapView'/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:16: error: no declaration of property 'mapView' found in the interface/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m: In function '-[BussitTampereViewController viewDidLoad]':/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:26: error: request for member 'mapView' in something not a structure or union/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m: In function '-[BussitTampereViewController viewDidUnload]':/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:32: error: request for member 'mapView' in something not a structure or union/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m: In function '-[BussitTampereViewController dealloc]':/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:38: error: 'mapView' undeclared (first use in this function)/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:38: error: (Each undeclared identifier is reported only once/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:38: error: for each function it appears in.)/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m: In function '-[BussitTampereViewController mapView:regionDidChangeAnimated:]':/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:47: error: 'mapView' undeclared (first use in this function)/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m: In function '-[BussitTampereViewController mapView:viewForAnnotation:]':/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m:59: error: 'mapView' undeclared (first use in this function)8(4@52"Expected specifier-qualifier-list before 'MKMapView'317765407#103#142#2(7@99"In file included from /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m317765407#18446744073709551615#0#0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m317765399#9#0#9#0#0"0(13@133"Expected specifier-qualifier-list before 'MKMapView' in /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h317765407#18446744073709551615#0#0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h317760852#16#0#16#0#0"0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h317760852#16#0#16#0#19"expected * before *0(4@52"Expected specifier-qualifier-list before 'MKMapView'317765407#245#142#2(7@99"In file included from /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m317765407#18446744073709551615#0#0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m317765399#9#0#9#0#0"0(13@133"Expected specifier-qualifier-list before 'MKMapView' in /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h317765407#18446744073709551615#0#0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h317760852#20#0#20#0#0"0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.h317760852#20#0#20#0#19"expected * before *0(4@59"No declaration of property 'mapView' found in the interface317765407#387#149#0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m317765399#16#0#16#0#0"0(4@66"Request for member 'mapView' in something not a structure or union317765407#673#156#0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m317765399#26#0#26#0#0"0(4@66"Request for member 'mapView' in something not a structure or union317765407#968#156#0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m317765399#32#0#32#0#0"0(4@49"'mapView' undeclared (first use in this function)317765407#1257#139#0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m317765399#38#0#38#0#43"'*' undeclared (first use in this function)0(4@49"'mapView' undeclared (first use in this function)317765407#1816#139#0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m317765399#47#0#47#0#43"'*' undeclared (first use in this function)0(4@49"'mapView' undeclared (first use in this function)317765407#2107#139#0(6@77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m317765399#59#0#59#0#43"'*' undeclared (first use in this function)0(0#0#77"/Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m3343204078395941376#2099"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/DerivedSources -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-fdbsqyhdjbxqzycmcfovojwknygs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/BussitTampereViewController.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/BussitTampereViewController.o1#
+
+CCompileC build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/MapViewController.o /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/MapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherAnnotationView.o /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317765407.593417
+e317765407.728884
+r1
+xCompileC
+xbuild/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherAnnotationView.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherAnnotationView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherAnnotationView.m317765407#317765407#0(0"0(0#0#79"/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherAnnotationView.m8613873088#2095"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/DerivedSources -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-fdbsqyhdjbxqzycmcfovojwknygs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherAnnotationView.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherAnnotationView.o0#
+
+CCompileC build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherItem.o /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317765407.688595
+e317765407.806771
+r1
+xCompileC
+xbuild/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherItem.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherItem.m317765407#317765407#0(0"0(0#0#69"/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherItem.m8617538176#2075"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/DerivedSources -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-fdbsqyhdjbxqzycmcfovojwknygs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherItem.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherItem.o0#
+
+CCompileC build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherServer.o /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherServer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317765407.728983
+e317765407.842104
+r1
+xCompileC
+xbuild/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherServer.o
+x/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherServer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherServer.m317765407#317765407#0(0"0(0#0#71"/Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherServer.m8617706336#2079"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/DerivedSources -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-fdbsqyhdjbxqzycmcfovojwknygs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/Classes/Classes/WeatherServer.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/WeatherServer.o0#
+
+CCompileC build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/main.o /Users/nova/Documents/Dev/BussitTampere/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317765407.377755
+e317765407.593333
+r1
+xCompileC
+xbuild/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/main.o
+x/Users/nova/Documents/Dev/BussitTampere/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/nova/Documents/Dev/BussitTampere/main.m317765407#317765407#0(0"0(0#0#46"/Users/nova/Documents/Dev/BussitTampere/main.m8618964096#2045"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/DerivedSources -include /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-fdbsqyhdjbxqzycmcfovojwknygs/BussitTampere_Prefix.pch -c /Users/nova/Documents/Dev/BussitTampere/main.m -o /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/nova/Documents/Dev/BussitTampere/BussitTampereViewController.xib
+s317765403.949299
+e317765405.363595
+r1
+xCompileXIB
+x/Users/nova/Documents/Dev/BussitTampere/BussitTampereViewController.xib
+lSLF07#2@42"CompileXIB BussitTampereViewController.xib317765403#317765405#0(0"0(0#0#71"/Users/nova/Documents/Dev/BussitTampere/BussitTampereViewController.xib8619294144#613"    cd /Users/nova/Documents/Dev/BussitTampere    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app/BussitTampereViewController.nib /Users/nova/Documents/Dev/BussitTampere/BussitTampereViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/nova/Documents/Dev/BussitTampere/MainWindow.xib
+s317765403.946809
+e317765405.665855
+r1
+xCompileXIB
+x/Users/nova/Documents/Dev/BussitTampere/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317765403#317765405#0(0"0(0#0#54"/Users/nova/Documents/Dev/BussitTampere/MainWindow.xib8598570432#579"    cd /Users/nova/Documents/Dev/BussitTampere    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app/MainWindow.nib /Users/nova/Documents/Dev/BussitTampere/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app.dSYM /Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app/BussitTampere
+r0
+
+CLd /Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app/BussitTampere normal i386
+r0
+
+CProcessInfoPlistFile /Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app/Info.plist BussitTampere-Info.plist
+s317765403.904691
+e317765403.946711
+r1
+xProcessInfoPlistFile
+x/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app/Info.plist
+xBussitTampere-Info.plist
+lSLF07#2@32"Process BussitTampere-Info.plist317765403#317765403#0(0"0(0#0#64"/Users/nova/Documents/Dev/BussitTampere/BussitTampere-Info.plist29273878621126700#500"    cd /Users/nova/Documents/Dev/BussitTampere    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BussitTampere-Info.plist -genpkginfo /Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app/Info.plist0#
+
+CProcessPCH /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-fdbsqyhdjbxqzycmcfovojwknygs/BussitTampere_Prefix.pch.gch BussitTampere_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317765405.666212
+e317765407.377378
+r1
+xProcessPCH
+x/var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-fdbsqyhdjbxqzycmcfovojwknygs/BussitTampere_Prefix.pch.gch
+xBussitTampere_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile BussitTampere_Prefix.pch317765405#317765407#0(0"0(0#0#64"/Users/nova/Documents/Dev/BussitTampere/BussitTampere_Prefix.pch8612017088#1930"    cd /Users/nova/Documents/Dev/BussitTampere    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-generated-files.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-own-target-headers.hmap -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-all-target-headers.hmap -iquote /Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/BussitTampere-project-headers.hmap -F/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator -I/Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/include -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/DerivedSources/i386 -I/Users/nova/Documents/Dev/BussitTampere/build/BussitTampere.build/Debug-iphonesimulator/BussitTampere.build/DerivedSources -c /Users/nova/Documents/Dev/BussitTampere/BussitTampere_Prefix.pch -o /var/folders/8j/8jleT+05HuuEowht2TSSN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BussitTampere_Prefix-fdbsqyhdjbxqzycmcfovojwknygs/BussitTampere_Prefix.pch.gch0#
+
+CTouch /Users/nova/Documents/Dev/BussitTampere/build/Debug-iphonesimulator/BussitTampere.app
+r0
+
